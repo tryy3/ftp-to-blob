@@ -94,8 +94,6 @@ func (f *FileReader) Size() int64 {
 }
 
 func (driver *FileDriver) realPath(path string) string {
-	//paths := strings.Split(path, "/")
-	//return filepath.Join(append([]string{driver.RootPath}, paths...)...)
 	return ""
 }
 
